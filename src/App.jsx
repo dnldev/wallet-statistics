@@ -1,8 +1,20 @@
 import React from 'react';
-import './App.css';
+
+import { ThemeProvider } from 'styled-components';
+import { BrowserRouter } from 'react-router-dom';
+
+import AppContent from './components/AppContent';
+
+import theme from './theme/theme';
 
 function App() {
-  return <div />;
+  return (
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <AppContent />
+      </BrowserRouter>
+    </ThemeProvider>
+  );
 }
 
 export default App;
