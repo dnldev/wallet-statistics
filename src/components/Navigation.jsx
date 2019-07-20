@@ -12,8 +12,8 @@ function Navigation(props) {
 
   return (
     <div className={css(styles.container)}>
-      <Link to="Home">
-        <Button>Go to Home</Button>
+      <Link to="stat-demo">
+        <Button>Go to Stat Demo</Button>
       </Link>
       {children}
     </div>
