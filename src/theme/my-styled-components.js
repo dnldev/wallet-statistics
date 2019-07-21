@@ -24,6 +24,14 @@ export const Button = styled.button`
   position: relative;
 `;
 
+export const Input = styled.input``;
+
+export const Slider = styled.input``;
+
+export const Text = styled.p`
+  font-size: 10;
+`;
+
 // export const SubTitle = styled.p`
 //   color: gray;
 //   font-size: 20;
